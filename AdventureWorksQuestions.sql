@@ -1,4 +1,6 @@
-/* Eight AdventureWorks questions and answers SQL script */
+/* NAME:    EC_IT143_W3.4_mn.sql */
+/* PURPOSE: Answers to eight AdventureWorks2022 questions using SQL queries, joins, aggregate functions,
+         filtering, sorting and INFORMATION_SCHEMA metadata views */
 
 /* Q1: Which employee has been with us the longest? */
 
@@ -121,5 +123,9 @@ WHERE TABLE_SCHEMA = 'Sales'
     AND TABLE_NAME = 'SalesOrderHeader'
 ORDER BY ORDINAL_POSITION;
 
-/* Ansswer: Column Name and Data Type: SalesOrderID _ int RevisionNumber, _ tinyint, OrderDate datetime */
+/* Answer: Column Name and Data Type: SalesOrderID _ int RevisionNumber, _ tinyint, OrderDate datetime */
+
+/* NOTE: This project demonstrated how SQL can be used to answer real business questions using the AdventureWorks 
+database. Through joins, aggregate functions, sorting, grouping, Common Table Expression and information schema views, 
+I was able to extract meaningful information to support business decision making. */
 
